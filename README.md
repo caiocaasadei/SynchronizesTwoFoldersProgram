@@ -26,10 +26,10 @@ Run the Program:
 
 To run the program, use the following command:
 
-FolderSynchronizer.exe "C:\Path\To\Source" "C:\Path\To\Replica" 600 "C:\Path\To\LogFile.txt"
+ - FolderSynchronizer.exe "C:\Path\To\Source" "C:\Path\To\Replica" 600 "C:\Path\To\LogFile.txt"
 
 Example:
-FolderSynchronizer.exe "C:\MySourceFolder" "C:\MyReplicaFolder" 600 "C:\SyncLog.txt"
+  - FolderSynchronizer.exe "C:\MySourceFolder" "C:\MyReplicaFolder" 600 "C:\SyncLog.txt"
 
   "C:\MySourceFolder": The source folder path.
   
