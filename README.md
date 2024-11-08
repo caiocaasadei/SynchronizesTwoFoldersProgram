@@ -15,7 +15,8 @@ Program that synchronizes two folders: source and replica. The program maintain 
 
 
 
-How to Use:
+
+# How to Use:
 
 Build or Download the Program:
 
