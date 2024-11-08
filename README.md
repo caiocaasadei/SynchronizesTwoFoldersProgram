@@ -32,6 +32,9 @@ Example:
 FolderSynchronizer.exe "C:\MySourceFolder" "C:\MyReplicaFolder" 600 "C:\SyncLog.txt"
 
   "C:\MySourceFolder": The source folder path.
+  
   "C:\MyReplicaFolder": The replica folder path.
+  
   600: Synchronization interval in seconds (e.g., 600 seconds = 10 minutes).
+  
   "C:\SyncLog.txt": Path to the log file where actions will be recorded.
