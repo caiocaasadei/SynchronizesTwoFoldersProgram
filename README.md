@@ -14,8 +14,6 @@ Program that synchronizes two folders: source and replica. The program maintain 
 6. It is allowed (and recommended) to use external libraries implementing other well-known algorithms. For example, there is no point in implementing yet another function that calculates MD5 if you need it for the task – it is perfectly acceptable to use a third-party (or built-in) library;
 
 
-
-
 # How to Use:
 
 Build or Download the Program:
@@ -32,6 +30,7 @@ FolderSynchronizer.exe "C:\Path\To\Source" "C:\Path\To\Replica" 600 "C:\Path\To\
 
 Example:
 FolderSynchronizer.exe "C:\MySourceFolder" "C:\MyReplicaFolder" 600 "C:\SyncLog.txt"
+
   "C:\MySourceFolder": The source folder path.
   "C:\MyReplicaFolder": The replica folder path.
   600: Synchronization interval in seconds (e.g., 600 seconds = 10 minutes).
